@@ -25,4 +25,5 @@ e.g vuejs app
   set scripts.start to `sh deploy.sh` in package.json
   
 - Ignore serve config file in git(optional)
-   add 'serve.json' to your '.gitignore' file
+  <br>
+  add 'serve.json' to your '.gitignore' file
