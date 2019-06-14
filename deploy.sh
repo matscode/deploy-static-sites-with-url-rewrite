@@ -1,6 +1,7 @@
 #!/bin/sh
 #-------------------------------------
-# Serving Static Site e.g vuejs app
+# Serving Static Site with URL Rewriting
+# e.g vuejs app
 #-------------------------------------
 
 #-------------------------------------
@@ -9,11 +10,11 @@
 # - Install serve package.
 #   run 'yarn add serve' or 'npm i -S serve'
 #
-# - copy 'deploy' into your project root
+# - copy 'deploy.sh' into your project root
 #
-# - Add 'deploy' to your package.json scripts.
+# - Add 'deploy.sh' to your package.json scripts.
 #   vuejs app example below;
-#   set scripts.start to 'sh deploy' in package.json
+#   set scripts.start to 'sh deploy.sh' in package.json
 #
 # - Ignore serve config file in git (optional)
 #   add 'serve.json' to your '.gitignore' file
