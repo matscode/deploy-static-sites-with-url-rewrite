@@ -19,8 +19,10 @@ e.g vuejs app
 - copy `deploy.sh` into your project.
 
 - Add `deploy.sh` to your package.json scripts.
+  <br>
   vuejs app example below;
-  set scripts.start to 'sh deploy.sh' in package.json
+  <br>
+  set scripts.start to `sh deploy.sh` in package.json
   
 - Ignore serve config file in git(optional)
    add 'serve.json' to your '.gitignore' file
