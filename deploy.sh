@@ -9,16 +9,13 @@
 # - Install serve package.
 #   run 'yarn add serve' or 'npm i -S serve'
 #
-# - copy deploy into your project and
-#   make 'deploy' executable.
-#   run 'chmod +x deploy.sh'
+# - copy 'deploy' into your project root
 #
-# - Add your build command and deploy.
+# - Add 'deploy' to your package.json scripts.
 #   vuejs app example below;
-#   set scripts.start to './deploy'
-#   or './deploy' in package.json
+#   set scripts.start to 'sh deploy' in package.json
 #
-# - Ignore serve package config file (optional)
+# - Ignore serve config file in git (optional)
 #   add 'serve.json' to your '.gitignore' file
 #--------------------------------------
 
